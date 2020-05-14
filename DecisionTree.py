@@ -96,7 +96,7 @@ def createDecisionTree(dataSet,featnames):
     return DecisionTree
 
 if __name__ == '__main__':
-    filename = "D:\\MLinAction\\Data\\西瓜2.0.txt"
+    filename = "D:\\MLinAction\\Data\\breast-cancer-wisconsin.data"
     DataSet,featname = filetoDataSet(filename)
     Tree = createDecisionTree(DataSet,featname)
     print(Tree)
